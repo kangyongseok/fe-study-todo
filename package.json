@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "~4.7.0",
+    "gts": "^3.1.1",
+    "@types/node": "^14.11.2"
+  },
+  "dependencies": {
+    "tslint-config-airbnb": "^5.11.2"
+  },
+  "scripts": {
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "tsc": "tsc -w",
+    "fix": "gts fix",
+    "prepare": "yarn run compile",
+    "pretest": "yarn run compile",
+    "posttest": "yarn run lint"
+  }
+}
