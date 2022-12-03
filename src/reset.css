@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #646469;
 }
 
 html, body, #root {
@@ -12,4 +13,13 @@ html, body, #root {
 button {
   border: none;
   background: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  padding-top: 2px;
 }
