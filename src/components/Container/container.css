@@ -1,0 +1,65 @@
+.container {
+  position: relative;
+  min-width: 30%;
+  background: white;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.container .add_todo {
+  background: #5c74e2;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  top: 42px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list_area {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.list_area ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.list_area .btn_group {
+  margin-left: auto;
+}
+
+.list_area .btn_group .success {
+  color: #5c74e2;
+}
+
+.list_area .btn_group .delete {
+  color: #fd3e6b;
+}
+
+.list_area .date {
+  font-size: 12px;
+  color: #cccccc;
+}
+
+.done_wrap .item_title {
+  text-decoration: line-through;
+  color: #cccccc;
+}
